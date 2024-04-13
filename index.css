@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: #d9f5f9;
 }
 body {
     font-family: Arial, sans-serif;
@@ -22,8 +23,11 @@ figure {
     text-align: center;
 }
 img {
-    max-width: 50%;
-    height: auto;
+    width: 50%;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(0.9); /* Scales the image to 105% of its original size */
 }
 footer {
     text-align: center;
